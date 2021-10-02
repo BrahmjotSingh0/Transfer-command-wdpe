@@ -4,7 +4,11 @@ main: real\Transfer\transfer
 version: 1.0.0
 api: 4.0.0
 load: STARTUP
-description: "A Transfer command plugin for pocketmine 4.0 which works with waterdogpe.""
+description: "A Transfer command plugin for pocketmine 4.0 which works with waterdogpe."
+commands:
+  transfer:
+    usage: /transfer <server>
+    description: Transfer yourself to different server
 permissions:
   wdpe.transfer.command:
     default: true
