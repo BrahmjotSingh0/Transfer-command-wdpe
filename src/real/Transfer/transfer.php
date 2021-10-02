@@ -12,7 +12,7 @@ use pocketmine\player\Player;
 use function array_shift;
 use function count;
 
-final class TransferCommand extends Command{
+class transfer extends PluginBase{
 
 	
 	public function onEnable(): void{
