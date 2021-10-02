@@ -25,17 +25,8 @@ class transfer extends PluginBase{
         
         switch($cmd->getName()){
             case "transfer":
-                if($sender instanceof Player){
-                    $this->run($sender); 
-                    $this->setPermission("wdpe.transfer.command");
-		                $this->setUsage("/transfer <server>");
-                } 
-            break;   
-        }
-        return true;    
-    } 
-  
-  public function run(CommandSender $sender, string $commandLabel, array $args) : bool{
+    $this->setPermission("wdpe.transfer.command");
+		$this->setUsage("/transfer <server>"); 
 		if(!$this->testPermission($sender)) return false;
 		if(!$sender instanceof Player) return false;
 		if(count($args) < 1) throw new InvalidCommandSyntaxException();
@@ -46,6 +37,9 @@ class transfer extends PluginBase{
 		$pk->port = 1;
 		$sender->getNetworkSession()->sendDataPacket($pk);
 		return true;
-	} 
+                } 
+            break;   
+        
+    } 
     
 }
