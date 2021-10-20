@@ -10,4 +10,3 @@ A Plugin to implement /transfer &lt;server> command for wdpe in pocketmine api 4
 <td>/transfer [server] <td>
 <td>wdpe.transfer.command<td>
 </tr> <br>
-###*Excluding [] 
