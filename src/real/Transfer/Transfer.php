@@ -14,7 +14,7 @@ use pocketmine\plugin\PluginBase;
 use function array_shift;
 use function count; 
 
-class transfer extends PluginBase{
+class Transfer extends PluginBase{
     
     public function onCommand(CommandSender $sender, Command $cmd, string $commandLabel, array $args): bool{
         switch($cmd->getName()){

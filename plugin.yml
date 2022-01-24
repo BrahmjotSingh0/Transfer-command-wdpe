@@ -1,6 +1,6 @@
 name: Transfer-wdpe
 author: RealBJsingh
-main: real\Transfer\transfer
+main: real\Transfer\Transfer
 version: 1.0.0
 api: 4.0.0
 load: STARTUP
@@ -11,4 +11,5 @@ commands:
     description: Transfer yourself to different server
 permissions:
   wdpe.transfer.command:
+    description: "Permission to use Transfer command"
     default: true
