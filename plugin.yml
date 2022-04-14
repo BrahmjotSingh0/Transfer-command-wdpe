@@ -8,7 +8,8 @@ description: "A Transfer command plugin for pocketmine 4.0 which works with wate
 commands:
   transfer:
     usage: /transfer <server>
-    description: Transfer yourself to different server
+    description: "Transfer yourself to different server"
+    permission: wdpe.transfer.command
 permissions:
   wdpe.transfer.command:
     description: "Permission to use Transfer command"
