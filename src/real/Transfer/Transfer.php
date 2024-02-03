@@ -5,10 +5,9 @@ declare(strict_types=1);
 namespace real\Transfer;
 
 use pocketmine\command\{Command, CommandSender};
-use pocketmine\utils\TextFormat as TF;
-use pocketmine\network\mcpe\NetworkSession;
+use pocketmine\network\bedrock\BedrockNetworkSession;
 use pocketmine\command\utils\InvalidCommandSyntaxException;
-use pocketmine\network\mcpe\protocol\TransferPacket;
+use pocketmine\network\bedrock\protocol\TransferPacket;
 use pocketmine\player\Player; 
 use pocketmine\plugin\PluginBase;
 use function array_shift;
