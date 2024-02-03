@@ -2,12 +2,13 @@ name: Transfer-wdpe
 author: RealBJsingh
 main: real\Transfer\Transfer
 version: 1.0.0
-api: 4.0.0
-load: STARTUP
+api: 5.0.0
 description: "A Transfer command plugin for pocketmine 4.0 which works with waterdogpe."
 commands:
   transfer:
     usage: /transfer <server>
+    alias: 
+    - server
     description: "Transfer yourself to different server"
     permission: wdpe.transfer.command
 permissions:
