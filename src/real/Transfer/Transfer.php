@@ -17,7 +17,8 @@ class Transfer extends PluginBase{
     
     public function onCommand(CommandSender $sender, Command $cmd, string $commandLabel, array $args): bool{
         switch($cmd->getName()){
-            case "transfer":
+            case "transfer":  
+            case "server":
                 if(count($args) < 1){
                     throw new InvalidCommandSyntaxException();
                 }
