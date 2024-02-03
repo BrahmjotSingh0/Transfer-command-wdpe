@@ -1,5 +1,5 @@
 # Transfer-command-wdpe
-A Plugin to implement /transfer &lt;server> command for wdpe in pocketmine api 4.0
+A Plugin to implement /transfer &lt;server> command for wdpe in pocketmine api 5.0
 
 <table>
 <tr> 
